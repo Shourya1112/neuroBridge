@@ -1,0 +1,27 @@
+.main-logo-div{
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.69rem;
+}
+
+.main-logo-div
+.logo{
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 1.5625rem;
+    background: #F9F5FF;
+}
+
+.main-logo-div
+.logo-text{
+    color: #FFF;
+    text-align: center;
+    font-family: "Helvetica Now Display";
+    font-size: 1.62869rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

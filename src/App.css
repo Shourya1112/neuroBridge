@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Helvetica Now Display";
+  src: url(./assets/font/font/HelveticaNowDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Now Display Bold";
+  src: url(./assets/font/font/HelveticaNowDisplay-ExtraBold.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+  text-align: center;
+  font-family: "Helvetica Now Display";
+
+  position: relative;
+  overflow: hidden;
+}
+
+.App
+.main-background{
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+p{
+  margin: 0;
+}

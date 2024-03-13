@@ -1,0 +1,142 @@
+.benefits-main-div{
+    width: 100%;
+    padding-top: 10.19rem;
+    margin-bottom: 11.63rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.benefits-main-div
+.main-title{
+    width: 100%;
+    margin-bottom: 1.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+}
+
+.benefits-main-div
+.main-title
+.main-heading{
+    color: #FFF;
+
+    text-align: center;
+    font-size: 4.35669rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.591%; 
+}
+
+.benefits-main-div
+.main-title
+.main-heading
+span{
+    background: linear-gradient(90deg, #BA79FF 37.67%, #9B58E2 99.93%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.35669rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.591%;
+}
+
+.benefits-main-div
+.main-title
+.faded-line-flipped{
+    transform: rotate(180deg);
+}
+
+.benefits-main-div
+.sub-title{
+    margin-bottom: 8.82rem;
+
+    max-width: 44.51988rem;
+    color: rgba(255, 255, 255, 0.56);
+
+    text-align: center;
+    font-size: 2.04219rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.benefits-main-div
+.card-main-container{
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.benefits-main-div
+.card-main-container
+.centre-logo-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.benefits-main-div
+.card-main-container
+.benefits-card-main{
+    /* background-color: crimson; */
+    background: linear-gradient(270deg, #1C1C1C 4.72%, rgba(28, 28, 28, 0.00) 34.82%);
+    width: 50%;
+    min-height: 22.375rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.benefits-main-div
+.card-main-container
+.benefits-card-main:nth-child(1){
+    /* background-color: crimson; */
+    background: linear-gradient(270deg, #1C1C1C 4.72%, rgba(28, 28, 28, 0.00) 34.82%);
+}
+
+.benefits-main-div
+.card-main-container
+.benefits-card-main:nth-child(last){
+    background: linear-gradient(270deg, #1C1C1C 4.72%, rgba(28, 28, 28, 0.00) 34.82%);
+}
+
+.benefits-main-div
+.card-main-container
+.benefits-card-main
+.card-title{
+    color: #FFF;
+
+    font-size: 1.69731rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.591%; 
+}
+
+.benefits-main-div
+.card-main-container
+.benefits-card-main
+.card-para{
+    max-width: 24.9375rem;
+    color: rgba(255, 255, 255, 0.56);
+
+    text-align: center;
+    font-size: 1.30563rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.591%; 
+}

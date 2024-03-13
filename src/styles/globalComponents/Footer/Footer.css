@@ -1,0 +1,154 @@
+.footer-main-div{
+    margin-top: 16.25rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 9.5rem;
+    padding-top: 4.75rem;
+    height: 35rem;
+    border-top: 2px solid #E25858;
+
+    background: rgba(27, 27, 27, 0.67);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+
+    position: relative;
+}
+
+.footer-main-div
+.footer-main-content{
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer-main-div
+.footer-main-content
+.logo-container{
+    margin-bottom: 2.8rem;
+}
+
+.footer-main-div
+.footer-main-content
+.footer-main-para{
+    margin-bottom: 1.8rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.56);
+
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; 
+}
+
+.footer-main-div
+.footer-main-content
+.newsletter-btn{
+    width: 17.5625rem;
+    height: 3.375rem;
+
+    border: none;
+    background-color: transparent;
+    border-radius: 0.75rem;
+    border: 1.2px solid #E25858;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    color: #F9F5FF;
+
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-main-div
+.footer-buttons{
+    width: 50%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-main-div
+.footer-buttons
+.footer-list-title{
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: #E25858;
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-main-div
+.footer-buttons
+.footer-columns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.footer-main-div
+.footer-buttons
+.footer-columns
+.footer-links{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFF;
+
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-main-div
+.bottom-bar-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    padding-inline: 9rem;
+}
+
+.bottom-bar-container
+.bottom-bar-text{
+    width: 100%;
+
+    border-top: 0.6px solid #fff;
+
+    height: 5rem;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.56);
+
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; 
+}

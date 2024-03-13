@@ -1,0 +1,198 @@
+.minsky-container{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: start;
+
+    border-top: 2px solid #E25858;
+    border-bottom: 2px solid #E25858;
+    background: rgba(155, 88, 226, 0.06);
+
+    padding-top: 5.5rem;
+    padding-bottom: 6.25rem;
+    padding-inline: 4.5rem;
+}
+
+.minsky-container
+.heading{
+    color: #FFF;
+    text-wrap: wrap;
+
+    font-size: 4.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.591%;
+}
+
+.minsky-container
+.heading
+span{
+    color: #E25858;
+
+    font-family: "Helvetica Now Display Bold";
+    font-size: 4.875rem;
+    font-style: italic;
+    /* font-weight: 800; */
+    line-height: 108.591%;
+}
+
+.minsky-container
+.row-container{
+    width: 100%;
+    padding-top: 1.25rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 5.56rem;
+}
+
+.minsky-container
+.row-container
+.stats-div{
+    width: calc(48% - 2.78rem);
+}
+
+.minsky-container
+.row-container
+.stats-div
+.sub-heading{
+    width: 100%;
+    margin-bottom: 3.75rem;
+    color: rgba(255, 255, 255, 0.56);
+
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.591%; 
+}
+
+.minsky-container
+.row-container
+.stats-div
+.minsky-card{
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.3rem;
+
+    padding-left: 2rem;
+    padding-right: 4.7rem;
+    cursor: pointer;
+    /* padding-top: 1.7rem; */
+}
+
+.minsky-container
+.row-container
+.stats-div
+.card-icon{
+    width: 4.125rem;
+    aspect-ratio: 1/1;
+}
+
+.minsky-container
+.row-container
+.stats-div
+.text-div{
+    padding-right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.minsky-container
+.row-container
+.stats-div
+.minsky-card
+.text-div
+.card-title{
+    color: rgba(255, 255, 255, 0.63);
+
+    font-family: "Helvetica Now Display";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.591%;
+}
+
+.minsky-container
+.row-container
+.stats-div
+.minsky-card-hover
+.text-div
+.card-title{
+    color: #FFF;
+
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.591%;
+}
+
+.minsky-container
+.row-container
+.stats-div
+.text-div
+.card-para{
+    display: none;
+}
+
+.minsky-container
+.row-container
+.stats-div
+.minsky-card-hover
+.text-div
+.card-para{
+    display: block;
+
+    color: rgba(255, 255, 255, 0.56);
+
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.591%;
+}
+
+.minsky-container
+.row-container
+.stats-div
+.minsky-card-hover{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2.5rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.3rem;
+
+    padding-left: 2rem;
+    padding-top: 1.7rem;
+    padding-right: 4.7rem;
+    padding-bottom: 2.8rem;
+
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(155, 88, 226, 0.28) 0.29%, rgba(155, 88, 226, 0.00) 107.99%);
+}
+
+.minsky-container
+.row-container
+.right-empty-div{
+    width: calc(52% - 2.78rem);
+    height: 100%;
+    min-height: 40rem;
+
+    border-radius: 1.625rem;
+    border: 1px solid #000;
+    background: rgba(155, 88, 226, 0.09);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

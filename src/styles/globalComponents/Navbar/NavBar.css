@@ -1,0 +1,118 @@
+.navbar-main-container{
+    width: 100%;
+    height: 8rem;
+    box-sizing: border-box;
+    padding-inline: 2.5rem;
+    padding-top: 1.87rem;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.navbar-main-container
+.blur-bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1B1B1B;
+    filter: blur(25.549999237060547px);
+    z-index: 0;
+}
+
+.navbar-main-container
+.navbar-main-items{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 7;
+}
+
+.navbar-main-container
+.navbar-main-items
+.nav-options{
+    max-width: 43.875rem;
+    width: 70%;
+    height: 3.6875rem;
+    box-sizing: border-box;
+    padding-inline: 3.75rem;
+
+    border-radius: 2.125rem;
+    border: 1px solid #E25858;
+    background: rgba(29, 28, 30, 0.01);
+    backdrop-filter: blur(3.8499999046325684px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.navbar-main-container
+.navbar-main-items
+.nav-options
+.nav-item{
+    color: #FFF;
+
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.navbar-main-container
+.navbar-main-items
+.user-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.31rem;
+    z-index: 3;
+}
+
+.navbar-main-container
+.navbar-main-items
+.user-btns
+.log-in-btn{
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.navbar-main-container
+.navbar-main-items
+.user-btns
+.sign-in-btn{
+    padding: 1rem 2.5rem;
+
+    border-radius: 2.125rem;
+    border: 1px solid #E25858;
+    background: rgba(155, 88, 226, 0.10);
+    backdrop-filter: blur(5.849999904632568px);
+
+    color: #FFF;
+    cursor: pointer;
+
+    text-align: center;
+    font-family: "Helvetica Now Display";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

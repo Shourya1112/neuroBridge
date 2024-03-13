@@ -1,0 +1,178 @@
+.our-numbers-main-div{
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color: transparent;
+    padding-inline: 4.5rem;
+}
+
+.our-numbers-main-div
+.numbers-main-content{
+    width: 100%;
+
+    border-radius: 3.75rem;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.top-numbers{
+    width: 100%;
+    /* height: 13.875rem; */
+    background: rgba(155, 88, 226, 0.12);
+    backdrop-filter: blur(49.849998474121094px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.top-numbers
+.numbers-div{
+    width: 100%;
+    padding-top: 2.56rem;
+    padding-bottom: 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 0.5rem; */
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.top-numbers
+.numbers-div
+.main-numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* gap: 0.5rem; */
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.top-numbers
+.numbers-div
+.main-numbers
+.num-value{
+    color: #F9F5FF;
+    height: 6.7rem;
+
+    font-family: "Anybody";
+    font-size: 7.13719rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.591%;
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.top-numbers
+.numbers-div
+.main-numbers
+.num-label{
+    color: #E25858;
+
+    font-family: "Anybody";
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 108.591%; 
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.bottom-numbers{
+    width: 100%;
+    /* height: 13.875rem; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.bottom-numbers
+.briefing-div{
+    width: 100%;
+    padding-top: 2.69rem;
+    padding-bottom: 3.44rem;
+
+    background: linear-gradient(180deg, rgba(155, 88, 226, 0.12) 0%, rgba(155, 88, 226, 0.12) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.bottom-numbers
+.briefing-div
+.brief{
+    width: 100%;
+    margin-inline: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.bottom-numbers
+.briefing-div
+.brief
+.brief-icon{
+    width: 5.625rem;
+    aspect-ratio: 1/1;
+
+    margin-bottom: 2rem;
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.bottom-numbers
+.briefing-div
+.brief
+.brief-label{
+    color: #BA79FF;
+
+    font-family: "Anybody";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.591%; 
+}
+
+.our-numbers-main-div
+.numbers-main-content
+.bottom-numbers
+.briefing-div
+.brief
+.brief-para{
+    color: rgba(255, 255, 255, 0.66);
+
+    text-wrap: wrap;
+    text-align: start;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131%;
+}

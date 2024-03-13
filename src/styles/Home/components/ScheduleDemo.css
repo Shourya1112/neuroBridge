@@ -1,0 +1,63 @@
+.schedule-demo-main-div{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule-demo-main-div
+.schedule-main-content{
+    max-width: 55rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.schedule-demo-main-div
+.schedule-main-content
+.ticket-icon{
+    margin-bottom: 2.25rem;
+}
+
+.schedule-demo-main-div
+.schedule-main-content
+.main-title{
+    color: #FFF;
+    margin-bottom: 1.81rem;
+
+    text-align: center;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.591%;
+}
+
+.schedule-demo-main-div
+.schedule-main-content
+.main-title
+span{
+    color: #E25858;
+
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.591%;
+}
+
+.schedule-demo-main-div
+.schedule-main-content
+.main-text{
+    box-sizing: border-box;
+    padding-inline: 4rem;
+    margin-bottom: 2.81rem;
+    color: rgba(255, 255, 255, 0.56);
+
+    text-align: center;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+}
