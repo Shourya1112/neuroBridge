@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom"
 // import purpleBlur from "../../assets/background/hero-bg-blur.png"
 import blackBlur from "../../assets/background/heroBgGroup.png"
 import starsIcon from "../../assets/icons/stars.png"
 import "../../styles/Home/components/Hero.css"
 
 const Hero = () => {
+    const navigate = useNavigate()
     const subText = "Venture deeper into the AI realm with models"
     const paraText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
     const prompts = [
@@ -34,7 +36,7 @@ const Hero = () => {
                         className='search-input-box'
                     />
 
-                    <button className='generate-btn'>
+                    <button onClick={() => navigate("/fun")} className='generate-btn'>
                         Generate
                         <img 
                             src={starsIcon} 

@@ -1,0 +1,147 @@
+.background-container{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #000;
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.background-container
+.hello{
+    padding: 1rem 2rem;
+    margin-top: 5rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    z-index: 999;
+
+    background-color: #7100ff;
+
+    color: #fff;
+}
+
+.background-container
+.absolute{
+    top: -5%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.background-container
+.absolute
+.block{
+    cursor: pointer;
+    content: "";
+    width: 6rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+
+    border: 2px solid #7100ff;
+}
+
+/* .background-container
+.absolute
+.block:hover{
+    background-color: #7100ff;
+    transform: scale(1.2);
+    animation: hello  ease;
+} */
+
+
+
+.background-container
+.absolute
+.active{ 
+    background-color: #7100ff;
+    transform: scale(1.2);
+    animation: hello 100ms ease;
+}
+
+@keyframes hello {
+    from{
+        background-color: transparent;
+        transform: scale(1);
+    } to {
+        background-color: #7100ff;
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 900px) {
+    .background-container{
+        width: 100vw;
+        height: 100vh;
+    
+        background-color: #000;
+        position: fixed;
+        z-index: 9999;
+        overflow: hidden;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .background-container
+    .hello{
+        padding: 1rem 2rem;
+        margin-top: 5rem;
+        font-size: 3.5rem;
+        font-weight: 500;
+        border-radius: 1rem;
+        z-index: 999;
+    
+        background-color: #7100ff;
+    
+        color: #fff;
+    }
+    
+    .background-container
+    .absolute{
+        top: -5%;
+        left: -10%;
+        width: 120%;
+        height: 120%;
+    
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .background-container
+    .absolute
+    .block{
+        cursor: pointer;
+        content: "";
+        width: 4.5rem;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+    
+        border: 2px solid #7100ff;
+    }
+    
+    .background-container
+    .absolute
+    .active{ 
+        background-color: #7100ff;
+        transform: scale(1.2);
+        animation: hello 100ms ease;
+    }
+}

@@ -4,6 +4,7 @@ import HomePage from './Pages/HomePage';
 import NavBar from './globalComponents/Navbar/NavBar';
 import Footer from './globalComponents/Footer/Footer';
 import mainBackground from "./assets/background/appBackground.png"
+import BackGround from './components/play/BackGround';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
         <Routes>
           <Route path='/' element={<HomePage />} />
+          <Route path="/fun" element={<BackGround />} />
         </Routes>
 
         <Footer />
